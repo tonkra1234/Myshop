@@ -51,7 +51,7 @@ Route::group(['prefix'=>'user','as'=>'user.'], function() {
     })->name('authen');
     Route::get('/logout',function(){
         return 'Logout and go to home';
-    })->name('logout');
+    })->name('logoutuser');
 });
 
 Route::group(['prefix'=>'user','as'=>'user.'], function() {
